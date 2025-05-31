@@ -15,9 +15,9 @@ const About = () => {
         <div className="flex flex-col justify-center max-w-3xl mx-auto px-4 text-[#02302D]">
 
           <p className="font-serif sm:text-lg leading-relaxed mb-6">
-            A lo largo de mi trayectoria académica, he tenido la oportunidad de construir experiencias digitales significativas,
+            A lo largo de mi trayectoria académica, he tenido la oportunidad de construir proyectos tecnológicos significativos para mi aprendizaje,
             aplicando tecnologías modernas como <span className="font-semibold">React, Next.js, JavaScript, Tailwind CSS, Astro, Vite, Node.js, GitHub, HTML, CSS y Vercel</span>.
-            Estos proyectos me han permitido desarrollar tanto mi pensamiento técnico como estético, creando productos funcionales
+            Estos proyectos me han permitido desarrollar tanto mi pensamiento técnico como visual, creando productos funcionales
             y visualmente atractivos basados en principios de UX/UI.
           </p>
 

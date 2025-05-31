@@ -84,7 +84,7 @@ const Home = () => {
         <p className="text-[#059F9B] font-bold mb-4">2020-2025</p>
         <p className="text-base sm:text-lg font-serif text-gray-300 mb-6 leading-relaxed">
           Actualmente, estoy finalizando mi formación en Ingeniería Informática en la Corporación Universitaria Autónoma de Nariño. 
-          A lo largo de este proceso, he fortalecido no solo mis habilidades en desarrollo web con tecnologías como React, Next.js, 
+          A lo largo de este proceso, me he familiarizado no solo con habilidades en desarrollo web con tecnologías como React, Next.js, 
           Tailwind CSS y Node.js, sino también competencias clave como el análisis de requerimientos, el diseño de soluciones a través 
           de diagramas UML, la visualización de datos y la interpretación de información técnica para la toma de decisiones.
           Me interesa conectar la tecnología con las necesidades reales de las personas, combinando pensamiento estratégico, creatividad y 

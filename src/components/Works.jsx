@@ -3,11 +3,11 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 
 import portafolio from "../assets/proyectos/portafolio.png";
 import Tienda from "../assets/proyectos/tienda.jpeg";
-import demoapi from "../assets/proyectos/demoapi.jpeg";
+// import demoapi from "../assets/proyectos/demoapi.jpeg";
 import apicrud from "../assets/proyectos/apicrud.jpeg";
 import aesthetic from "../assets/proyectos/aesthetic.png";
 import tiendamaquillaje from "../assets/proyectos/tiendamaquillaje.png";
-import apichatgpt from "../assets/proyectos/apichatgpt.jpeg";
+// import apichatgpt from "../assets/proyectos/apichatgpt.jpeg";
 import appheroes from "../assets/proyectos/appheroes.jpeg";
 
 const Works = () => {
@@ -54,13 +54,6 @@ const Works = () => {
       code: "https://github.com/marianaaa05/App-de-heroes",
       texto: "App de Heroes",
     },
-    // {
-    //   id: 7,
-    //   src: apichatgpt,
-    //   demo: "https://chat-gpt-theta.vercel.app/",
-    //   code: "https://github.com/marianaaa05/Chat-gpt",
-    //   texto: "Api de Chat GPT",
-    // },
   ];
 
   return (
@@ -107,11 +100,11 @@ const Works = () => {
             </div>
           ))}
         </div>
-        <div className="flex justify-center mt-8">
+        {/* <div className="flex justify-center mt-8">
           <p className="text-4xl font-bold text-white border-b-4 border-[#DF90AD] text-center mx-auto max-w-fit mb-6">
             Gracias por visitar mi portafolio!
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );
