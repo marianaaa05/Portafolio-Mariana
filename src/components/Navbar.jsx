@@ -124,7 +124,8 @@ const Navbar = () => {
   const handleClick = () => setNavbar(!navbar)
 
   return (
-    <div className="fixed w-full h-[98px] flex justify-between items-center px-6 bg-[#059F9B] text-white shadow-md z-50">
+    <div className="fixed w-full h-[98px] flex justify-between items-center px-6 bg-transparent md:bg-[#059F9B] text-white shadow-transparent md:shadow-md z-50">
+
       {/* Menu */}
       <ul className="hidden md:flex space-x-6 text-lg font-medium">
         <li>
