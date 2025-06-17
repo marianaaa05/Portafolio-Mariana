@@ -1,4 +1,5 @@
 import React from "react";
+import { FaMicroscope, FaBalanceScale, FaLeaf } from "react-icons/fa";
 import certificadoMaquinarte from "../assets/certificadoMaquinarte.jpeg"
 
 
@@ -7,7 +8,7 @@ const participations = () => {
         // 
         // <div name="about" className="flex flex-col w-full bg-[#059F9B] sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2px">
         //   <div className="max-w-[1500px] w-full grid sm:grid-cols-2 gap-20 px-40">
-        <div name="participations" className="w-full bg-[#02302D]">
+        <div name="participations" className="w-full bg-gradient-to-b from-[#276561] to-[#071013]">
             <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full">
                 <div className="sm:text-left pb-8">
                     <p className="text-4xl text-white font-bold inline border-b-4 border-[#DF90AD]">
@@ -20,12 +21,14 @@ const participations = () => {
                 <div className="flex flex-col justify-center max-w-3xl mx-auto px-4 text-white">
 
                     <p className="font-serif sm:text-lg leading-relaxed mb-6">
+                        <FaMicroscope className="text-[#DF90AD] text-2xl mt-1" />
                         Durante el evento Maquinarte, exploré el impacto social y ambiental de la
                         inteligencia artificial (IA) a través de investigaciones y
                         análisis basados en documentales y conferencias de expertos en el tema.
                     </p>
 
                     <p className="font-serif sm:text-lg leading-relaxed mb-6">
+                        <FaBalanceScale className="text-[#DF90AD] text-2xl mt-1" />
                         <span className="font-semibold">Impacto social de la Inteligencia Artificial: </span>
                         la IA depende del trabajo de millones de personas en países del sur global que realizan
                         tareas mal pagadas como etiquetado y transcripción. En muchos casos, trabajan en condiciones
@@ -35,6 +38,7 @@ const participations = () => {
                     </p>
 
                     <p className="font-serif sm:text-lg leading-relaxed mb-6">
+                        <FaLeaf className="text-[#DF90AD] text-2xl mt-1" />
                         <span className="font-semibold">Impacto ambiental de la Inteligencia Artificial: </span>
                         el entrenamiento y uso de modelos de IA consume enormes cantidades de energía y agua.
                         Centros de datos requieren refrigeración intensiva, afectando recursos como el agua potable.

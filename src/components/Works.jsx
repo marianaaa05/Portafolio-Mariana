@@ -57,7 +57,7 @@ const Works = () => {
   ];
 
   return (
-    <div name="works" className="w-full text-slate-900 bg-[#0B594B]">
+    <div name="works" className="w-full text-slate-900 bg-gradient-to-b from-[#276561] to-[#071013]">
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-white border-[#DF90AD]">
@@ -73,26 +73,27 @@ const Works = () => {
           {proyectos.map(({ id, src, demo, code, texto }) => (
             <div
               key={id}
-              className="shadow-md shadow-[#0B594B] rounded-lg bg-[#059F9B]"
+              className="rounded-2xl shadow-lg shadow-[#0B594B]/30 bg-gradient-to-b from-[#0B4945] to-[#02302D] hover:scale-[1.02] transition-transform duration-300"
             >
               <img
                 src={src}
                 alt="Imagenes de referencia"
-                className="rounded-md duration-200 hover:scale-110"
+                className="rounded-t-2xl object-cover w-full h-48"
               />
-              <div className="p-4 text-center">
-                <p className="text-2xl font-bold">{texto}</p>
+              <div className="p-5 text-center">
+                <p className="text-2xl font-semibold text-white mb-4">{texto}</p>
               </div>
-              <div className="flex items-center justify-center">
+              {/* <div className="flex items-center justify-center"> */}
+              <div className="flex sm:flex-row justify-center gap-4">
                 {demo && (
                   <a href={demo}>
-                    <button className="group text-white font-semibold px-6 py-3 my-4 flex items-center justify-center gap-2 rounded-xl border-4 border-[#DF90AD] bg-gradient-to-br from-[#059F9B] to-[#0B594B] shadow-md shadow-[#0B594B]/40 transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-xl hover:from-[#D96A9E] hover:to-[#DF90AD] focus:outline-none focus:ring-4 focus:ring-[#DF90AD]/50">
+                    <button className="w-full sm:w-auto px-5 py-2 text-white font-medium rounded-lg bg-[#28a09c] hover:bg-[#276561] transition-all duration-300 shadow-md hover:shadow-lg">
                       Visualizar
                     </button>
                   </a>
                 )}
                 <a href={code}>
-                  <button className="group text-white font-semibold px-6 py-3 my-4 flex items-center justify-center gap-2 rounded-xl border-4 border-[#DF90AD] bg-gradient-to-br from-[#059F9B] to-[#0B594B] shadow-md shadow-[#0B594B]/40 transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-xl hover:from-[#D96A9E] hover:to-[#DF90AD] focus:outline-none focus:ring-4 focus:ring-[#DF90AD]/50">
+                  <button className="w-full sm:w-auto px-5 py-2 text-white font-medium rounded-lg bg-[#28a09c] hover:bg-[#276561] transition-all duration-300 shadow-md hover:shadow-lg">
                     Encontrar en Github
                   </button>
                 </a>
@@ -100,6 +101,7 @@ const Works = () => {
             </div>
           ))}
         </div>
+        <div className="h-32" />
         {/* <div className="flex justify-center mt-8">
           <p className="text-4xl font-bold text-white border-b-4 border-[#DF90AD] text-center mx-auto max-w-fit mb-6">
             Gracias por visitar mi portafolio!

@@ -61,7 +61,7 @@ import foto from "../assets/proyectos/foto.png"
 
 const Home = () => {
   return (
-    <div name="home" className="w-full min-h-screen bg-gradient-to-b from-[#02302D] to-[#071013] text-white flex flex-col items-center justify-center px-4 py-16 lg:py-0 lg:flex-row lg:px-20">
+    <div name="home" className="w-full min-h-screen bg-gradient-to-b from-[#276561] to-[#071013] text-white flex flex-col items-center justify-center px-4 py-16 lg:py-0 lg:flex-row lg:px-20">
       <div className="w-full max-w-[300px] sm:max-w-[400px] flex flex-col justify-center items-center lg:mr-12 mb-8 lg:mb-0">
         <img
           src={foto}
