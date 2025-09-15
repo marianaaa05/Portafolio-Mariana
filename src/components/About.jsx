@@ -25,15 +25,15 @@ const About = () => {
 
           <p className="font-serif sm:text-lg leading-relaxed mb-6">
             <FaChartBar className="text-[#DF90AD] text-2xl mt-1" />
-            Actualmente, me encuentro realizando un curso certificado de <span className="font-semibold">análisis de datos</span>,
-            donde estoy desarrollando habilidades sobre la interpretación de información, visualización de resultados y toma de decisiones basadas en datos.
+            Culminé un curso certificado en Talento Tech sobre <span className="font-semibold">Análisis de Datos</span>,
+            donde pude desarrollar habilidades sobre la interpretación de información, visualización de resultados y toma de decisiones basadas en datos.
           </p>
 
           <p className="font-serif sm:text-lg leading-relaxed mb-6">
             <FaProjectDiagram className="text-[#DF90AD] text-2xl mt-1" />
             Complementando mi perfil técnico, cuento con conocimientos en  <span className="font-semibold">análisis de requerimientos</span> y diseño de <span className="font-semibold">diagramas UML</span>,
             herramientas que me permiten comprender las necesidades del usuario, traducirlas en
-            especificaciones técnicas claras y diseñar soluciones coherentes desde su fase inicial hasta su implementación.
+            especificaciones técnicas claras y diseñar soluciones coherentes desde la fase inicial de un proyecto hasta su implementación.
           </p>
 
           <p className="font-serif sm:text-lg leading-relaxed">

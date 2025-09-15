@@ -1,59 +1,67 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 
+import LMS from "../assets/proyectos/lms.png";
 import portafolio from "../assets/proyectos/portafolio.png";
-import Tienda from "../assets/proyectos/tienda.jpeg";
-// import demoapi from "../assets/proyectos/demoapi.jpeg";
-import apicrud from "../assets/proyectos/apicrud.jpeg";
-import aesthetic from "../assets/proyectos/aesthetic.png";
-import tiendamaquillaje from "../assets/proyectos/tiendamaquillaje.png";
-// import apichatgpt from "../assets/proyectos/apichatgpt.jpeg";
-import appheroes from "../assets/proyectos/appheroes.jpeg";
+// import Tienda from "../assets/proyectos/tienda.jpeg";
+// // import demoapi from "../assets/proyectos/demoapi.jpeg";
+// import apicrud from "../assets/proyectos/apicrud.jpeg";
+// import aesthetic from "../assets/proyectos/aesthetic.png";
+// // import tiendamaquillaje from "../assets/proyectos/tiendamaquillaje.png";
+// // import apichatgpt from "../assets/proyectos/apichatgpt.jpeg";
+// import appheroes from "../assets/proyectos/appheroes.jpeg";
 
 const Works = () => {
   const proyectos = [
     {
       id: 1,
-      src: portafolio,
-      demo: "https://miportafolio-mariana.netlify.app/",
-      code: "https://github.com/marianaaa05/Portafolio-Mariana",
-      texto: "Portafolio",
+      src: LMS,
+      demo: "https://skahverse.vercel.app/",
+      code: "https://github.com/marianaaa05/sga",
+      texto: "LMS interactivo",
     },
-    {
-      id: 2,
-      src: tiendamaquillaje,
-      demo: "https://dazzling-pudding-08cbdd.netlify.app/",
-      code: "https://github.com/marianaaa05/maquillaje",
-      texto: "Tienda de Maquillaje",
-    },
-    {
-      id: 3,
-      src: aesthetic,
-      demo: "https://aestheticworld.vercel.app/",
-      code: "https://github.com/marianaaa05/vite_vanilla",
-      texto: "Aesthetic World con chatbot",
-    },
-    {
-      id: 4,
-      src: Tienda,
-      demo: "https://tienda-ochre.vercel.app/",
-      code: "https://github.com/marianaaa05/tienda",
-      texto: "Comercio Electrónico",
-    },
-    {
-      id: 5,
-      src: apicrud,
-      demo: "https://api-crud-sigma.vercel.app/?vercelToolbarCode=PpMoXhk5WYq_5uf",
-      code: "https://github.com/marianaaa05/API_CRUD",
-      texto: "API CRUD",
-    },
-    {
-      id: 6,
-      src: appheroes,
-      demo: "https://app-de-heroes.vercel.app/marvel",
-      code: "https://github.com/marianaaa05/App-de-heroes",
-      texto: "App de Heroes",
-    },
+    // {
+    //   id: 2,
+    //   src: portafolio,
+    //   demo: "https://miportafolio-mariana.netlify.app/",
+    //   code: "https://github.com/marianaaa05/Portafolio-Mariana",
+    //   texto: "Portafolio",
+    // },
+    // {
+    //   id: 2,
+    //   src: tiendamaquillaje,
+    //   demo: "https://dazzling-pudding-08cbdd.netlify.app/",
+    //   code: "https://github.com/marianaaa05/maquillaje",
+    //   texto: "Tienda de Maquillaje",
+    // },
+    // {
+    //   id: 3,
+    //   src: aesthetic,
+    //   demo: "https://aestheticworld.vercel.app/",
+    //   code: "https://github.com/marianaaa05/vite_vanilla",
+    //   texto: "Aesthetic World con chatbot",
+    // },
+    // {
+    //   id: 4,
+    //   src: Tienda,
+    //   demo: "https://tienda-ochre.vercel.app/",
+    //   code: "https://github.com/marianaaa05/tienda",
+    //   texto: "Comercio Electrónico",
+    // },
+    // {
+    //   id: 5,
+    //   src: apicrud,
+    //   demo: "https://api-crud-sigma.vercel.app/?vercelToolbarCode=PpMoXhk5WYq_5uf",
+    //   code: "https://github.com/marianaaa05/API_CRUD",
+    //   texto: "API CRUD",
+    // },
+    // {
+    //   id: 6,
+    //   src: appheroes,
+    //   demo: "https://app-de-heroes.vercel.app/marvel",
+    //   code: "https://github.com/marianaaa05/App-de-heroes",
+    //   texto: "App de Heroes",
+    // },
   ];
 
   return (
@@ -61,15 +69,18 @@ const Works = () => {
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-white border-[#DF90AD]">
-            Proyectos
+            Proyecto: LMS interactivo
           </p>
           <p className="py-6 text-white">
-            Los siguientes son algunos de mis proyectos.
+            Consta del diseño, desarrollo, implementación y evaluación de un LMS (Learning Management System) como apoyo para la gestión 
+            de información documental de los semilleros de investigación de mi universidad. 
+            Herramientas de desarrollo principales: Next.js, JavaScript, React, Tailwind CSS, PostgreSQL, Neon, Clerk y Supabase. 
           </p>
-          <p className="py-6 text-white">Puedes revisarlos!</p>
+          <p className="py-6 text-white">Puedes visitarlo!</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-12 px-12 sm:px-0 ">
+        {/* <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-12 px-12 sm:px-0 "> */}
+        <div className="gap-8 px-12 sm:px-0">
           {proyectos.map(({ id, src, demo, code, texto }) => (
             <div
               key={id}
@@ -78,7 +89,7 @@ const Works = () => {
               <img
                 src={src}
                 alt="Imagenes de referencia"
-                className="rounded-t-2xl object-cover w-full h-48"
+                className="rounded-t-2xl object-cover w-full h-full"
               />
               <div className="p-5 text-center">
                 <p className="text-2xl font-semibold text-white mb-4">{texto}</p>

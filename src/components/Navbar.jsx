@@ -225,7 +225,7 @@ const Navbar = () => {
           <li className="w-[70px] h-[70px] sm:w-[180px] sm:h-[80px] border-white border-2 flex justify-center sm:justify-between items-center sm:ml-[-100px] hover:sm:ml-[-10px] duration-300 bg-[#059F9B] rounded-xl mb-2 mr-2 sm:mr-0">
             <a
               className="flex justify-between items-center w-full text-white px-1.5"
-              href="mailto:nanaarredondo220@gmail.com"
+              href="mailto:marianaarredondoortiz@gmail.com"
             >
               <FaEnvelope size={50} />
               <span className="hidden sm:block ml-2">Correo</span>

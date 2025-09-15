@@ -22,10 +22,6 @@ const Skills = () => {
           <p className="text-4xl text-white font-bold inline border-b-4 border-[#DF90AD]">
             Tecnologías
           </p>
-          <p className="py-4 text-white">
-            Estas son algunas tecnologías que he utilizado y que hasta el
-            momento sigo aprendiendo:
-          </p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-6 text-center py-8">
