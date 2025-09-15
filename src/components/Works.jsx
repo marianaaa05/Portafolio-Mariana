@@ -2,14 +2,7 @@ import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 
 import LMS from "../assets/proyectos/lms.png";
-import portafolio from "../assets/proyectos/portafolio.png";
-// import Tienda from "../assets/proyectos/tienda.jpeg";
-// // import demoapi from "../assets/proyectos/demoapi.jpeg";
-// import apicrud from "../assets/proyectos/apicrud.jpeg";
-// import aesthetic from "../assets/proyectos/aesthetic.png";
-// // import tiendamaquillaje from "../assets/proyectos/tiendamaquillaje.png";
-// // import apichatgpt from "../assets/proyectos/apichatgpt.jpeg";
-// import appheroes from "../assets/proyectos/appheroes.jpeg";
+
 
 const Works = () => {
   const proyectos = [
@@ -20,48 +13,6 @@ const Works = () => {
       code: "https://github.com/marianaaa05/sga",
       texto: "LMS interactivo",
     },
-    // {
-    //   id: 2,
-    //   src: portafolio,
-    //   demo: "https://miportafolio-mariana.netlify.app/",
-    //   code: "https://github.com/marianaaa05/Portafolio-Mariana",
-    //   texto: "Portafolio",
-    // },
-    // {
-    //   id: 2,
-    //   src: tiendamaquillaje,
-    //   demo: "https://dazzling-pudding-08cbdd.netlify.app/",
-    //   code: "https://github.com/marianaaa05/maquillaje",
-    //   texto: "Tienda de Maquillaje",
-    // },
-    // {
-    //   id: 3,
-    //   src: aesthetic,
-    //   demo: "https://aestheticworld.vercel.app/",
-    //   code: "https://github.com/marianaaa05/vite_vanilla",
-    //   texto: "Aesthetic World con chatbot",
-    // },
-    // {
-    //   id: 4,
-    //   src: Tienda,
-    //   demo: "https://tienda-ochre.vercel.app/",
-    //   code: "https://github.com/marianaaa05/tienda",
-    //   texto: "Comercio Electrónico",
-    // },
-    // {
-    //   id: 5,
-    //   src: apicrud,
-    //   demo: "https://api-crud-sigma.vercel.app/?vercelToolbarCode=PpMoXhk5WYq_5uf",
-    //   code: "https://github.com/marianaaa05/API_CRUD",
-    //   texto: "API CRUD",
-    // },
-    // {
-    //   id: 6,
-    //   src: appheroes,
-    //   demo: "https://app-de-heroes.vercel.app/marvel",
-    //   code: "https://github.com/marianaaa05/App-de-heroes",
-    //   texto: "App de Heroes",
-    // },
   ];
 
   return (
