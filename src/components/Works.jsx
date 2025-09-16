@@ -1,7 +1,7 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 
-import LMS from "../assets/proyectos/lms.png";
+import LMS from "../assets/proyectos/LMS.png";
 
 
 const Works = () => {
