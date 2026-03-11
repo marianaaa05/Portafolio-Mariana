@@ -17,7 +17,6 @@
 //         />
 //       </div>
 
-
 //       <div className="max-w-[1000px] mr-20 ml-auto flex flex-col justify-center h-full lg:-mt-40">
 //         <p className="text-stone-90 sm:text-5xl font-bold text-4xl text-[#DF90AD]">Hola!..,</p>
 //         <h1 className="text-2xl sm:text-5xl font-bold text-[#D96A9E]">Soy Mariana Arredondo</h1>
@@ -42,26 +41,24 @@
 //           </Link>
 //         </div>
 
-
 //       </div>
 //     </div>
 //   );
 // };
 
-
 // export default Home;
 
-
-
-
-import React from "react"
-import { HiArrowNarrowRight } from "react-icons/hi"
-import { Link } from "react-scroll"
-import foto from "../assets/proyectos/foto.png"
+import React from "react";
+import { HiArrowNarrowRight } from "react-icons/hi";
+import { Link } from "react-scroll";
+import foto from "../assets/proyectos/foto.png";
 
 const Home = () => {
   return (
-    <div name="home" className="w-full min-h-screen bg-gradient-to-b from-[#276561] to-[#071013] text-white flex flex-col items-center justify-center px-4 py-16 lg:py-0 lg:flex-row lg:px-20">
+    <div
+      name="home"
+      className="w-full min-h-screen bg-gradient-to-b from-[#276561] to-[#071013] text-white flex flex-col items-center justify-center px-4 py-16 lg:py-0 lg:flex-row lg:px-20"
+    >
       <div className="w-full max-w-[300px] sm:max-w-[400px] flex flex-col justify-center items-center lg:mr-12 mb-8 lg:mb-0">
         <img
           src={foto}
@@ -79,16 +76,17 @@ const Home = () => {
           <span className="text-[#D96A9E]">Mariana Arredondo Ortiz</span>
         </h1>
         <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4">
-          Próxima Ingeniera Informática.
+          Ingeniera Informática | Desarrolladora Web
         </h2>
-        <p className="text-[#059F9B] font-bold mb-4">2020-2025</p>
+        {/* <p className="text-[#059F9B] font-bold mb-4">2020-2026</p> */}
         <p className="text-base sm:text-lg font-serif text-gray-300 mb-6 leading-relaxed">
-          Actualmente, estoy finalizando mi formación en Ingeniería Informática en la Corporación Universitaria Autónoma de Nariño. 
-          A lo largo de este proceso, me he familiarizado no solo con habilidades en desarrollo web con tecnologías como React, Next.js, 
-          Tailwind CSS y Node.js, sino también competencias clave como el análisis de requerimientos, el diseño de soluciones a través 
-          de diagramas UML, la visualización de datos y la interpretación de información técnica para la toma de decisiones.
-          Me interesa conectar la tecnología con las necesidades reales de las personas, combinando pensamiento estratégico, creatividad y 
-          una autogestión.
+          Desarrollo aplicaciones web modernas enfocadas en la experiencia del
+          usuario y la solución de necesidades reales mediante tecnologías como
+          React, Next.js y PostgreSQL. Tengo experiencia en diseño de
+          interfaces, desarrollo frontend, integración de bases de datos,
+          autenticación de usuarios y gestión de archivos en la nube. Me
+          caracterizo por mi capacidad de aprendizaje, adaptabilidad y
+          orientación a resolver problemas mediante tecnología.
         </p>
         <div className="flex justify-center lg:justify-start">
           <Link to="works" smooth={true} duration={500}>
@@ -102,7 +100,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
